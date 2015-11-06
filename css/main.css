@@ -1,9 +1,5 @@
 html {
-  font-family: sans-serif;
-}
-
-header {
-  background-color: #cccccc;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 a {
@@ -31,15 +27,22 @@ nav a:hover {
   background-color: #cccccc;
 }
 
+.231f20 {
+  background-color: #231f20;
+}
+
+.dark {
+  background-color: #231f20;
+}
+
+.bucket {
+  color: #ffffff;
+}
+
 
 @media only screen and (min-width: 24em) {
  li {
   display: inline-block;
-  }
-
-
-  nav, h1{
-    text-align: center;
   }
 
 }
@@ -50,14 +53,19 @@ h1 {
 }
 
 nav {
-  text-align: left;
+  text-align: right;
 }
 
 }
 
 @media only screen and (min-width: 38em) {
-  nav {
-    text-align: right;
+  .logo {
+    text-align: left;
   }
+
+.bucket {
+  text-align: center;
+}
+
 
 }
