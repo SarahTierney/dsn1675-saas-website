@@ -39,10 +39,16 @@ nav a:hover {
   color: #ffffff;
 }
 
+.white {
+  color: #ffffff;
+}
 
 @media only screen and (min-width: 24em) {
  li {
   display: inline-block;
+  }
+  .nav-top {
+    text-align: right;
   }
 
 }
@@ -50,10 +56,6 @@ nav a:hover {
 @media only screen and (min-width: 35em) {
 h1 {
   text-align: left;
-}
-
-nav {
-  text-align: right;
 }
 
 }
