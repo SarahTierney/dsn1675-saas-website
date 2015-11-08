@@ -14,7 +14,17 @@ nav a {
 nav a:hover {
   background-color: #0074d7;
   color: #fff;
+  border-radius: 0.25em;
+
 }
+
+.login {
+  color: #ffffff;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  background-color: #000000;
+  border-radius: 0.25em;
+}
+
 .efefef {
   background-color: #efefef;
 }
@@ -41,6 +51,14 @@ nav a:hover {
 
 .white {
   color: #ffffff;
+}
+
+.signup {
+  background-color: #ffffff;
+}
+
+.tiny {
+  color: #cccccc;
 }
 
 @media only screen and (min-width: 24em) {
