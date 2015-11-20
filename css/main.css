@@ -30,13 +30,14 @@ nav a:hover {
 
 .e2e2e2 {
   background-color: #e2e2e2;
+  color: #000;
 }
 
 .cccccc {
   background-color: #cccccc;
 }
 
-.231f20 {
+.bg-231f20 {
   background-color: #231f20;
 }
 
@@ -67,13 +68,14 @@ nav a:hover {
 .banner {
   background-image: url(../images/designer.jpg);
   background-size: cover;
+  background-color: #000;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
 }
 
 @media only screen and (min-width: 24em) {
- li {
+ .nav-top li {
   display: inline-block;
   }
   .nav-top {
@@ -101,4 +103,11 @@ h1 {
   margin-right: auto;
   margin-left: auto;
 }
+}
+
+@media only screen and (min-width: 60em) {
+.box-text {
+  min-height: 10em;
+}
+
 }
