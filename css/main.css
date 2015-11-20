@@ -61,6 +61,14 @@ nav a:hover {
   color: #cccccc;
 }
 
+.banner {
+  background-image: url(../images/designer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+
 @media only screen and (min-width: 24em) {
  li {
   display: inline-block;
@@ -76,11 +84,7 @@ h1 {
   text-align: left;
 }
 
-.max-width {
-  max-width: 20rem;
-  margin-right: auto;
-  margin-left: auto;
-}
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -92,5 +96,9 @@ h1 {
   text-align: center;
 }
 
-
+.max-width {
+  max-width: 20rem;
+  margin-right: auto;
+  margin-left: auto;
+}
 }
