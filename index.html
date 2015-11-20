@@ -14,14 +14,19 @@
 </head>
 <body>
 
-<header class="dark">
+<ul class="skip-links">
+  <li><a href-"#main">Skip to main content</a></li>
+  <li><a href-"#nav">Skip to main navigation</a></li>
+</ul>
+
+<header class="dark" role="banner">
   <div class="grid grid-middle">
     <div class="unit xs-1 s-1-3 m-1-3 l-1-3 island-1-2">
           <a href="index.html"><h1 class="push-0 kilo logo white">StudioRoom</h1></a>
     </div>
 
     <div class="unit xs-1 s-2-3 m-2-3 l-2-3">
-    <nav class="nav-top" id="top">
+    <nav class="nav-top" id="top nav">
       <ol class="push-0 list-group">
         <li><a class="island-1-2" href="tour.html">Tour</a></li>
         <li><a class="island-1-2" href="pricing.html">Pricing</a></li>
@@ -34,7 +39,7 @@
 
 </header>
 
-<main class="banner">
+<main class="banner" id="main" role="main">
 <div class="island">
   <div class="text-center yotta island-quarter pad-t">
     <p class="push-0"><strong>StudioRoom</strong></p>
@@ -96,11 +101,9 @@
     </div>
   </div>
 </div>
-
-
-
 </main>
-  <footer class="dark micro">
+
+  <footer class="dark micro" role="contentinfo">
     <div class="grid grid-middle">
       <div class="unit xs-1 s-1-2 m-1-2 l-1-2 island-1-2 text-center">
         <nav>
