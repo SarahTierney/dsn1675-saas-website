@@ -61,6 +61,10 @@ nav a:hover {
   color: #cccccc;
 }
 
+.black {
+  color: #000000;
+}
+
 .banner {
   background-image: url(../images/designer.jpg);
   background-size: cover;
