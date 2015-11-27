@@ -66,12 +66,16 @@ nav a:hover {
 }
 
 .banner {
-  background-image: url(../images/designer.jpg);
+  background-image: url(../images/background.jpg);
   background-size: cover;
   background-color: #000;
   background-repeat: no-repeat;
   text-align: center;
   color: white;
+}
+
+.text-left {
+  text-align: left;
 }
 
 @media only screen and (min-width: 24em) {
@@ -110,5 +114,10 @@ h1 {
 .box-text {
   min-height: 10em;
 }
+
+.main-height {
+  min-height: 37em;
+}
+
 
 }
