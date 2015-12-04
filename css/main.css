@@ -78,6 +78,31 @@ nav a:hover {
   text-align: left;
 }
 
+label {
+  display: block;
+  cursor: pointer;
+  text-align: left;
+}
+
+input + label {
+  display: inline;
+}
+
+input {
+border-radius: 0px;
+background-color: white;
+font-size: 1rem;
+padding: 1em;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 10px;
+  border: 3px solid #cccccc;
+  background-color: #efefef;
+}
+
 @media only screen and (min-width: 24em) {
  .nav-top li {
   display: inline-block;
@@ -86,7 +111,12 @@ nav a:hover {
     text-align: right;
   }
 
+.grid-signup {
+  margin: none;
 }
+
+}
+
 
 @media only screen and (min-width: 35em) {
 h1 {
