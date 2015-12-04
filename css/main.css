@@ -7,12 +7,12 @@ a {
 }
 
 nav a {
-  color: #0074d7;
+  color: #a1d1cf;
   text-decoration: none;
 }
 
 nav a:hover {
-  background-color: #0074d7;
+  background-color: #a1d1cf;
   color: #fff;
   border-radius: 0.25em;
 }
@@ -63,6 +63,10 @@ nav a:hover {
 
 .black {
   color: #000000;
+}
+
+.a1d1cf {
+  background-color: #a1d1cf;
 }
 
 .banner {
@@ -122,6 +126,7 @@ button {
 .logo {
   max-width: 40px;
   vertical-align: middle;
+  margin: 0 0.5em 0;
 }
 
 @media only screen and (min-width: 24em) {
