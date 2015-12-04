@@ -82,6 +82,7 @@ label {
   display: block;
   cursor: pointer;
   text-align: left;
+  font-size: 0.9rem;
 }
 
 input + label {
@@ -92,15 +93,35 @@ input {
 border-radius: 0px;
 background-color: white;
 font-size: 1rem;
-padding: 1em;
+border: 2px solid #cccccc;
+padding: 0.5em;
+width: 100%;
+}
+
+select {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 10px;
+  border: 2px solid #cccccc;
+  border-radius: 5px;
 }
 
 button {
   font-size: 1rem;
+  color: white;
   padding: 0.5em 1em 0.5em 1em;
-  border-radius: 10px;
-  border: 3px solid #cccccc;
-  background-color: #efefef;
+  border: none;
+  background-color: black;
+}
+
+.signup-here {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.logo {
+  max-width: 40px;
+  vertical-align: middle;
 }
 
 @media only screen and (min-width: 24em) {
