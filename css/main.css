@@ -24,6 +24,11 @@ nav a:hover {
   border-radius: 0.25em;
 }
 
+.text-shadow {
+  text-shadow: 2px 2px 5px #000000;
+
+}
+
 .efefef {
   background-color: #efefef;
 }
@@ -44,6 +49,13 @@ nav a:hover {
 .dark {
   background-color: #231f20;
 }
+
+
+.darkdark {
+  background-color: #231f20;
+background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 81%,rgba(0,0,0,0.35) 100%);
+}
+
 
 .bucket {
   color: #ffffff;
@@ -68,8 +80,14 @@ nav a:hover {
 .a1d1cf {
   background-color: #a1d1cf;
   color: #000;
-
 }
+
+.a1d1cf-transparent {
+  background-color: #a1d1cf;
+  color: #000;
+background: linear-gradient(to bottom, rgba(161,209,207,0.5) 0%,rgba(161,209,207,0.5) 100%);
+}
+
 
 .banner {
   background-image: url(../images/background.jpg);
@@ -127,6 +145,12 @@ button {
 
 .logo {
   max-width: 40px;
+  vertical-align: middle;
+  margin: 0 0.5em 0;
+}
+
+.logo-big {
+  max-width: 6em;
   vertical-align: middle;
   margin: 0 0.5em 0;
 }
@@ -202,7 +226,7 @@ h1 {
 
 @media only screen and (min-width: 60em) {
 .box-text {
-  min-height: 5em;
+  min-height: 9em;
 }
 
 .main-height {
