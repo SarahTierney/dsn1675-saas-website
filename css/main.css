@@ -135,6 +135,13 @@ button {
   max-width: 60px;
 }
 
+.logo-btn-large {
+  display: none;
+}
+
+.logo-btn-small {
+  margin: 0em;
+}
 
 @media only screen and (min-width: 24em) {
  .nav-top li {
@@ -147,6 +154,7 @@ button {
 .grid-signup {
   margin: none;
 }
+
 
 }
 
@@ -182,6 +190,14 @@ h1 {
 .studioroom {
   max-width: 100px;
 }
+
+.logo-btn-large {
+  display: block;
+}
+.logo-btn-small {
+  display: none;
+}
+
 }
 
 @media only screen and (min-width: 60em) {
