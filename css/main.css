@@ -162,6 +162,9 @@ button {
 .logo-btn-large {
   display: none;
 }
+.logo-btn-small {
+  display: inline-block;
+}
 
 .logo-btn-small {
   margin: 0em;
