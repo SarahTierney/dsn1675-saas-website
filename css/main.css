@@ -171,6 +171,10 @@ button {
   margin: 0em;
 }
 
+.social:hover {
+  background-color: transparent;
+}
+
 @media only screen and (min-width: 24em) {
  .nav-top li {
   display: inline-block;
